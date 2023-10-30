@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        .dropdown-btn{
+            background-color: rgb(50, 50, 97);
+            color: white;
+            border: none;
+            padding: 15px 45px;
+        }
+
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color:whitesmoke;
+        }
+
+        .dropdown-container:hover .dropdown-content{
+            display: block;
+        }
+
+        .dropdown-content a{
+            display:block;
+            padding: 10px 20px;
+            text-decoration:none;
+            color: black;
+        }
+         section, .main{
+            margin: 5px;
+            display: flex;
+            flex: 1;
+        } 
+
+        .main:nth-child(1){
+            display: flex;
+            margin: 2px;
+            flex: 2;
+        }
+
+        section{
+            background-color:  rgb(50, 50, 97);
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div class="main">
+           <img src="./image/icons8-scratch.svg" alt="">
+        </div>
+       
+        <div class="main">
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Shoes</button>
+                <div class="dropdown-content">
+                    <a href="#">Puma</a>
+                    <a href="#">Adidas</a>
+                    <a href="#">Nike</a>
+                    <a href="#">Bata</a>
+                </div>
+
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="main">
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Ford</button>
+                <div class="dropdown-content">
+                    <a href="#">Mustang</a>
+                    <a href="#">Endrover</a>
+                    <a href="#">Atlas</a>
+                    <a href="#">Escort</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="main">
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Laptaps</button>
+                <div class="dropdown-content">
+                    <a href="#">Lenovo</a>
+                    <a href="#">Dell</a>
+                    <a href="#">Asus</a>
+                    <a href="#">Apple</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Television</button>
+                <div class="dropdown-content">
+                    <a href="#">Lenovo</a>
+                    <a href="#">Tcl</a>
+                    <a href="#">Oneplus</a>
+                    <a href="#">Apple</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Fridges</button>
+                <div class="dropdown-content">
+                    <a href="#">Qlg</a>
+                    <a href="#">Samsung</a>
+                    <a href="#">Haier</a>
+                    <a href="#">whirpool</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Conditionars</button>
+                <div class="dropdown-content">
+                    <a href="#">Qlg</a>
+                    <a href="#">Samsung</a>
+                    <a href="#">Haier</a>
+                    <a href="#">whirpool</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Motors</button>
+                <div class="dropdown-content">
+                    <a href="#">AC</a>
+                    <a href="#">DC</a>
+                    <a href="#">Special Motors</a>
+                    <a href="#">Shunt Motor</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+</body>
+</html>

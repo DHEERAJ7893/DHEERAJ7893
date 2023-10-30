@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+            font-family: Arial;
+        }
+        section, div{
+            margin: 5px;
+            
+            display: flex;
+            flex: 1;
+            padding: 5px;
+            font-size: x-large;
+        }
+        div:nth-child(1){
+            flex: 2;
+        }
+
+        .products{
+            color: purple;
+            font-size: 20px;
+            line-height:78px;
+            font-weight: bold;
+            padding-left: 30px;
+        }
+
+        .logo{
+            color:green;
+            font-size: xx-large;
+            font-weight: bold;
+            line-height: 2.5;
+            padding-left: 180px;
+        }
+
+        button{
+            background-color: brown;
+            color: white;
+            margin: 10px;
+            height: 50px;
+            border-radius: 30px;
+            padding-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+   <section>
+    <div class="logo">Puma</div>
+    <div class="products">Shoes</div>
+    <div class="products">Shirts</div>
+    <div class="products">Sandals</div>
+    <div class="products">Bags</div>
+    <div> <button> Contact us</button></div>
+   </section>
+</body>
+</html>
